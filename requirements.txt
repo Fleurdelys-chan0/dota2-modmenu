@@ -1,0 +1,11 @@
+# dota2-modmenu runtime dependencies
+pywin32==306
+pymem==1.13.1
+pydivert==2.1.0
+psutil==5.9.8
+pydantic==2.7.4
+requests==2.32.3
+websockets==12.0
+Pillow==10.3.0
+keyboard==0.13.5
+numpy==1.26.4

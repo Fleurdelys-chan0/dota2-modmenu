@@ -1,0 +1,29 @@
+[app]
+name = "dota2-modmenu"
+version = "0.4.7"
+log_level = "info"
+data_dir = "%APPDATA%\\dota2-modmenu"
+
+[injector]
+process_name = "dota2.exe"
+dll_path = "native/build/d2mm_native.dll"
+auto_attach = true
+retry_interval_ms = 1500
+safe_mode = true
+
+[overlay]
+enabled = true
+fps_cap = 144
+font = "Segoe UI"
+accent_color = "#c23b22"
+scale = 1.0
+
+[signatures]
+signature_dir = "signatures"
+auto_update = false
+remote_manifest = "https://updates.dota2-modmenu.dev/signatures/manifest.json"
+
+[skins]
+catalog_dir = "skins/catalog"
+enable_local_only = true
+preview_ttl_seconds = 300

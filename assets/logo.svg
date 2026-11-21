@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0b0e13"/>
+  
+  <!-- Outer angular HUD frame with bevels -->
+  <path d="M32 48 L48 32 L208 32 L224 48 L224 208 L208 224 L48 224 L32 208 Z" fill="none" stroke="#c9d1d9" stroke-width="1.5" opacity="0.35"/>
+  <path d="M40 56 L56 40 L200 40 L216 56 L216 200 L200 216 L56 216 L40 200 Z" fill="none" stroke="#6fe3ff" stroke-width="0.8" opacity="0.25"/>
+  
+  <!-- Corner accent marks -->
+  <polyline points="32,48 32,32 48,32" fill="none" stroke="#6fe3ff" stroke-width="2" opacity="0.7"/>
+  <polyline points="208,32 224,32 224,48" fill="none" stroke="#6fe3ff" stroke-width="2" opacity="0.7"/>
+  <polyline points="224,208 224,224 208,224" fill="none" stroke="#6fe3ff" stroke-width="2" opacity="0.7"/>
+  <polyline points="48,224 32,224 32,208" fill="none" stroke="#6fe3ff" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Shield body - angular, cracked rune-etched -->
+  <path d="M128 60 L186 78 L192 130 Q192 178 128 210 Q64 178 64 130 L70 78 Z" 
+        fill="#0b0e13" stroke="#c9d1d9" stroke-width="2"/>
+  
+  <!-- Inner shield bevel line -->
+  <path d="M128 74 L174 89 L179 131 Q179 170 128 196 Q77 170 77 131 L82 89 Z" 
+        fill="none" stroke="#6fe3ff" stroke-width="0.9" opacity="0.5"/>
+  
+  <!-- Rune etchings on shield - angular nodes and lines -->
+  <polyline points="128,88 128,120 112,136 112,160" fill="none" stroke="#c9d1d9" stroke-width="1.2" opacity="0.6"/>
+  <polyline points="128,88 144,104 144,128 156,140" fill="none" stroke="#c9d1d9" stroke-width="1.2" opacity="0.6"/>
+  <polyline points="100,116 116,116 128,128 140,116 156,116" fill="none" stroke="#6fe3ff" stroke-width="0.8" opacity="0.45"/>
+  
+  <!-- Rune dots -->
+  <circle cx="128" cy="88" r="2.5" fill="#6fe3ff" opacity="0.8"/>
+  <circle cx="112" cy="160" r="2" fill="#6fe3ff" opacity="0.6"/>
+  <circle cx="156" cy="140" r="2" fill="#6fe3ff" opacity="0.6"/>
+  <circle cx="100" cy="116" r="2" fill="#c9d1d9" opacity="0.5"/>
+  <circle cx="156" cy="116" r="2" fill="#c9d1d9" opacity="0.5"/>
+  
+  <!-- Crack lines emanating from impact -->
+  <polyline points="128,128 108,108 96,100" fill="none" stroke="#c23b22" stroke-width="1.3" opacity="0.8"/>
+  <polyline points="128,128 120,148 114,168" fill="none" stroke="#c23b22" stroke-width="1" opacity="0.6"/>
+  <polyline points="128,128 148,136 162,148" fill="none" stroke="#c23b22" stroke-width="1" opacity="0.6"/>
+  <polyline points="128,128 104,144 94,152" fill="none" stroke="#c23b22" stroke-width="1" opacity="0.55"/>
+  
+  <!-- Diagonal wrench-cut - angular gash across shield -->
+  <polygon points="88,88 96,80 168,152 160,160" fill="#c23b22" opacity="0.9"/>
+  <polygon points="88,88 96,80 168,152 160,160" fill="none" stroke="#c23b22" stroke-width="0.5" opacity="1"/>
+  
+  <!-- Wrench cut highlight edge -->
+  <polyline points="90,86 164,156" stroke="#6fe3ff" stroke-width="0.7" opacity="0.4"/>
+  
+  <!-- Glow behind wrench cut -->
+  <path d="M88,88 L168,152" stroke="#c23b22" stroke-width="6" opacity="0.15" fill="none"/>
+  
+  <!-- Chevron below shield -->
+  <polyline points="96,224 128,204 160,224" fill="none" stroke="#6fe3ff" stroke-width="2" opacity="0.8"/>
+  <polyline points="106,230 128,216 150,230" fill="none" stroke="#6fe3ff" stroke-width="1.2" opacity="0.4"/>
+  
+  <!-- Small tactical marks on sides -->
+  <line x1="44" y1="128" x2="58" y2="128" stroke="#c23b22" stroke-width="1.5" opacity="0.5"/>
+  <line x1="198" y1="128" x2="212" y2="128" stroke="#c23b22" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Top status line -->
+  <line x1="80" y1="50" x2="176" y2="50" stroke="#6fe3ff" stroke-width="0.6" opacity="0.3"/>
+  <circle cx="176" cy="50" r="1.5" fill="#6fe3ff" opacity="0.6"/>
+</svg>
